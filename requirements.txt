@@ -11,6 +11,7 @@ dill==0.3.8
 fonttools==4.50.0
 idna==3.6
 isort==5.13.2
+lxml==5.1.0
 jmespath==1.0.1
 kiwisolver==1.4.5
 matplotlib==3.8.3
@@ -24,6 +25,7 @@ pillow==10.2.0
 platformdirs==4.2.0
 pylint==3.1.0
 pyparsing==3.1.2
+pytest==8.1.1
 python-dateutil==2.9.0.post0
 pytz==2024.1
 requests==2.31.0

@@ -7,5 +7,6 @@ def read_with_help(file_path):
     with open(file_path, 'r') as file:
         return file.read()
 def read_from_file_with_pandas(file_path):
-    """reads and returns a csv file as a dataframe."""
-    return pd.read_csv(file_path)
+    """reads and returns the first table from html file as a dataframe."""
+    tables = pd.read_html(file_path)
+    return tables[0] if tables else None
